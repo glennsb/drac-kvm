@@ -7,6 +7,7 @@ This simple Go program should help ease the pain.
 ```bash
 $ drac-kvm --help
 Usage of drac-kvm
+  -d, --delay=10: Number of seconds to delay for javaws to start up & read jnlp before deleting it
   -h, --host="some.hostname.com": The DRAC host (or IP)
   -j, --javaws="/usr/bin/javaws": The path to javaws binary
   -p, --password=false: Prompt for password (optional, will use 'calvin' if not present)
